@@ -15,6 +15,8 @@
 		D9F082ED2CBCFDC2001ECF17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F082EB2CBCFDC2001ECF17 /* LaunchScreen.storyboard */; };
 		D9F082F72CBCFEE9001ECF17 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F082F52CBCFEE9001ECF17 /* DashboardViewController.swift */; };
 		D9F082F82CBCFEE9001ECF17 /* DashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F082F62CBCFEE9001ECF17 /* DashboardViewController.xib */; };
+		D9F082FB2CBD096F001ECF17 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F082F92CBD096F001ECF17 /* LoginViewController.swift */; };
+		D9F082FC2CBD096F001ECF17 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F082FA2CBD096F001ECF17 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		D9F082EE2CBCFDC2001ECF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9F082F52CBCFEE9001ECF17 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		D9F082F62CBCFEE9001ECF17 /* DashboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardViewController.xib; sourceTree = "<group>"; };
+		D9F082F92CBD096F001ECF17 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D9F082FA2CBD096F001ECF17 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				D9F082E92CBCFDC2001ECF17 /* Assets.xcassets */,
 				D9F082EB2CBCFDC2001ECF17 /* LaunchScreen.storyboard */,
 				D9F082EE2CBCFDC2001ECF17 /* Info.plist */,
+				D9F082F92CBD096F001ECF17 /* LoginViewController.swift */,
+				D9F082FA2CBD096F001ECF17 /* LoginViewController.xib */,
 			);
 			path = "xcodegen-trial";
 			sourceTree = "<group>";
@@ -139,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F082FC2CBD096F001ECF17 /* LoginViewController.xib in Resources */,
 				D9F082ED2CBCFDC2001ECF17 /* LaunchScreen.storyboard in Resources */,
 				D9F082EA2CBCFDC2001ECF17 /* Assets.xcassets in Resources */,
 				D9F082E82CBCFDBD001ECF17 /* Main.storyboard in Resources */,
@@ -156,6 +163,7 @@
 				D9F082E52CBCFDBD001ECF17 /* ViewController.swift in Sources */,
 				D9F082E12CBCFDBD001ECF17 /* AppDelegate.swift in Sources */,
 				D9F082E32CBCFDBD001ECF17 /* SceneDelegate.swift in Sources */,
+				D9F082FB2CBD096F001ECF17 /* LoginViewController.swift in Sources */,
 				D9F082F72CBCFEE9001ECF17 /* DashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
